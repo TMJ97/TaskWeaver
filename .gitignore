@@ -1,3 +1,8 @@
+#TMJ added this:
+project/taskweaver_config.json
+
+###
+
 auto_eval/evaluator_config.json
 !sample/*.csv
 !tests/blackbox/*.csv
