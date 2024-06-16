@@ -20,7 +20,7 @@ class AppSessionConfig(ModuleConfig):
     def _configure(self) -> None:
         self._set_name("session")
 
-        self.max_internal_chat_round_num = self._get_int("max_internal_chat_round_num", 10)
+        self.max_internal_chat_round_num = self._get_int("max_internal_chat_round_num", 30) #NOTE TMJ: Edit this.
         self.experience_dir = self._get_path(
             "experience_dir",
             os.path.join(self.src.app_base_path, "experience"),
